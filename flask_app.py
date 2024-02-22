@@ -121,5 +121,5 @@ def video1():
 def webapp():
     return Response(generate_frames_web(path_x=0), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-# if __name__ == "__main__":
-#     app.run(debug=True,port=5000)
+if __name__ == "__main__":
+    app.run(debug=True,port=5000)
